@@ -11,14 +11,17 @@ import java.util.List;
 @RequestMapping("/api/v1/students")
 public class StudentController {
 
-    @Autowired
+
     private StudentService service;
 
+    @Autowired
+    public StudentController(StudentService service) {
+        this.service = service;
+    }
 
     @GetMapping
-
     public List<Student> findAllStudents(){
-        return null;
+        return service.findAllStudents();
 
     }
 }
