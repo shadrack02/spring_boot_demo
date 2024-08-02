@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sprdemo.iml" filepath="$PROJECT_DIR$/.idea/sprdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sprdemo/sprdemo.iml" filepath="$PROJECT_DIR$/sprdemo/sprdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring_boot_demo.iml" filepath="$PROJECT_DIR$/.idea/spring_boot_demo.iml" />
     </modules>
   </component>
 </project>
